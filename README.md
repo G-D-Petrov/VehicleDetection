@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/new_ROI.jpg
 [image6]: ./output_images/tracking.jpg
 [image7]: ./output_images/heatmaped.jpg
-[image8]: ./output_images/heatmap.jpgg
+[image8]: ./output_images/heatmap.jpg
 [video1]: ./project_video_output.mp4
 
 ### Histogram of Oriented Gradients (HOG)
@@ -48,12 +48,9 @@ I tried various combinations of parameters and the one in the notebook(the eight
 I trained a linear SVM using the default setings and hinge loss.
 Here are the features that I used:
 
-| color space   | LUV           | 
-
+| color space   | LUV           |
 | orientations  | 8             |
-
 | pix per cell  | 8             |
-
 |cells per block| 2             |
  
 ### Sliding Window Search
