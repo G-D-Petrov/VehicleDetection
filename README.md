@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/CarHOG.jpg
 [image3]: ./output_images/NonCarIMG.jpg
 [image4]: ./output_images/NonCarHOG.jpg
-[image5]: ./exoutput_imagesamples/new_ROI.jpg
+[image5]: ./output_images/new_ROI.jpg
 [image6]: ./output_images/tracking.jpg
 [image7]: ./output_images/heatmaped.jpg
 [image8]: ./output_images/heatmap.jpgg
@@ -49,8 +49,11 @@ I trained a linear SVM using the default setings and hinge loss.
 Here are the features that I used:
 
 | color space   | LUV           | 
+
 | orientations  | 8             |
+
 | pix per cell  | 8             |
+
 |cells per block| 2             |
  
 ### Sliding Window Search
