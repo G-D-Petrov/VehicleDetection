@@ -10,14 +10,14 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 [//]: # (Image References)
-[image1]: ./examples/CarIMG.jpg
-[image2]: ./examples/CarHOG.jpg
-[image3]: ./examples/NonCarIMG.jpg
-[image4]: ./examples/NonCarHOG.jpg
-[image5]: ./examples/new_ROI.jpg
-[image6]: ./examples/tracking.jpg
-[image7]: ./examples/heatmaped.jpg
-[image8]: ./examples/heatmap.jpgg
+[image1]: ./output_images/CarIMG.jpg
+[image2]: ./output_images/CarHOG.jpg
+[image3]: ./output_images/NonCarIMG.jpg
+[image4]: ./output_images/NonCarHOG.jpg
+[image5]: ./exoutput_imagesamples/new_ROI.jpg
+[image6]: ./output_images/tracking.jpg
+[image7]: ./output_images/heatmaped.jpg
+[image8]: ./output_images/heatmap.jpgg
 [video1]: ./project_video_output.mp4
 
 ### Histogram of Oriented Gradients (HOG)
@@ -48,12 +48,10 @@ I tried various combinations of parameters and the one in the notebook(the eight
 I trained a linear SVM using the default setings and hinge loss.
 Here are the features that I used:
 
-|:-------------:|:-------------:| 
 | color space   | LUV           | 
 | orientations  | 8             |
 | pix per cell  | 8             |
 |cells per block| 2             |
-|:-------------:|:-------------:|
  
 ### Sliding Window Search
 
